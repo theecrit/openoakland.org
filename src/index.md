@@ -42,7 +42,4 @@ title: We are OpenOakland
     <p>OpenOakland members primarily use Slack for all communication. You can join our Slack <a href="http://slack.openoakland.org/">here</a>.</p>
   </div>
 
-  <div class="col-4">
-    <img class="img-fluid" alt="RSVP on Meetup" src="/assets/images/OO-on-Slack-300x128.png" width="100" />
-  </div>
 </section>
