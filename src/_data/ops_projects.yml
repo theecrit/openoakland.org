@@ -1,0 +1,10 @@
+-
+  name: openoakland.org
+  image: OpenOakland-home.png
+  website: https://openoakland.org
+  repo: https://github.com/openoakland/openoakland.org
+  leader: Jess Sand
+  slack_id: CH1U5KJ48
+  slack_channel: project-oo-website
+  description: As the digital face of OpenOakland, our website serves new and existing members, community and government partners, and members of the larger Oakland and civic tech communities. We're currently prioritizing enhacements to improve delivery of brigade resources and new member onboarding. Issues in GutHub marked "Good First Issue" are great for first-timers.
+  tech: Jekyll, Kramdown, Bootstrap UI

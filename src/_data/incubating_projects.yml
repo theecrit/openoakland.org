@@ -1,0 +1,21 @@
+-
+  name: Community Foods
+  image: Community-Foods-Exterior-300x206.png
+  website:
+  repo:
+  leader: Jess Sand (temp)
+  slack_id: C0165NXC2F2
+  slack_channel: project-community-foods
+  description: In partnership with West Oakland's Community Foods Market this project aims to support the adoption and use of food assistance benefits (EBT). The main objectives are to provide support for in-store EBT applications and to improve the EBT checkout process.
+  tech: Exploring LOC Software POS system
+-
+  name: Open Oakland RADAR (Research and Data Assistance Request) Program
+  image:
+  website: https://docs.google.com/document/d/1NroAgRtaa6W12UKSCBimhzRICwBfhe9sWy-FWhiRZ0Y/edit?usp=sharing
+  repo: https://github.com/openoakland/openoakland.org
+  leader: Angela Kwon, Jess Sand
+  slack_id: C01RVMKBF5X
+  slack_channel: project-incubating-radar
+  description: Inspired by BetaNYC's RADAR program and input from various city stakeholders, we're currently exploring how to use OpenOakland's particular data expertise to further the needs of our partners, extend their impact, and supplement their own internal capacity - potentially through a time-bound, service-based relationship that allows us to deliver well-defined deliverables based on specific incoming requests.
+  tech: Currently in exploratory/validation phase
+-
