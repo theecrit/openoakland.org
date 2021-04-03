@@ -39,7 +39,7 @@ class ProjectFilter extends HTMLElement {
         'Brigade ops': true, // true indicates the filter should be on by default.
         'Active': true,
         'Incubating': true,
-        'Idle': false,
+        'Dormant': false,
         'Delivered': false,
         'Decommissioned': false,
       }

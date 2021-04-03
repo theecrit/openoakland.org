@@ -5,10 +5,10 @@ author: Jess Sand
 layout: page
 scripts: ["/assets/js/project_filter.js"]
 badges:
-  ops: 'info'
-  incubating: 'warning'
+  brigade ops: 'success'
+  incubating: 'info'
   active: 'success'
-  idle: 'light'
+  dormant: 'primary'
   delivered: 'secondary'
   decommissioned: 'dark'
 ---
@@ -28,9 +28,10 @@ The following are official OpenOakland projects that are being actively supporte
 
 <project-filter>
   <div class="project-filter__toolbar"></div>
+
   <!-- Brigade ops -->
   {% for project in site.data.ops_projects %}
-  {% assign status = 'ops' %}
+  {% assign status = 'brigade ops' %}
   {% include project.html %}
   {% endfor %}
 
@@ -47,8 +48,8 @@ The following are official OpenOakland projects that are being actively supporte
   {% endfor %}
 
   <!-- Idle -->
-  {% for project in site.data.idle_projects %}
-  {% assign status = 'idle' %}
+  {% for project in site.data.dormant_projects %}
+  {% assign status = 'dormant' %}
   {% include project.html %}
   {% endfor %}
 
@@ -95,7 +96,7 @@ Projects must demonstrate alignment to OpenOakland’s mission and values. Some 
 - Forming a project team which has lived experience with the issue the project is focused on
 - Conducting user research to understand the needs of the community the project serves
 
-### Inactive projects
+### Idle projects
 
 Projects with the <span class="badge badge-{{ page.badges['inactive'] }}">Inactive</span> label have either served their purpose or are otherwise no longer actively supported. If you'd like to resume or adapt one of these, submit a [project exploration worksheet](https://docs.google.com/document/d/1k24P9JiAUEzJLPFRDjVh7aRZexax6NUhfPFLSI3R80M/edit?usp=sharing) at an upcoming Hack Night or in Slack's #leadership channel.
 
